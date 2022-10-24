@@ -1,5 +1,6 @@
 
 
+
 h2 { color:rgb(146, 96, 46)}
 h1 { color:rgb(255, 249, 242)}
 body {
@@ -10,8 +11,7 @@ body {
  
     background-color:antiquewhite;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:rgb(163, 101, 39);
-     }
+    color:rgb(163, 101, 39);}
 
 .container {
     margin-top: 0px;
@@ -24,35 +24,6 @@ body {
  
 }
 
-.overskrift {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 0px;
-    width: 100%;
-    background-color:rgb(112, 69, 20)
-}
-
-.scrollemnu {
-    background-color: aliceblue;
-    overflow: auto;
-    white-space: nowrap;
-}
-
-   
-
-.scrollmenu a {
-    display: inline-block;
-    color:black;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-}
-
-.scrollmenu a:hover {
-    background-color: black;
-}
-
 
 
 .innhold {
@@ -62,6 +33,17 @@ body {
     height: 100%;
     
 }
+
+
+.overskrift {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color:rgb(112, 69, 20);
+}
+
 
 .venstre {
     margin-top: 10px;
@@ -82,4 +64,25 @@ body {
     color:rgb(163, 101, 39);
 }
 
+
+
+
+div.scrollmenu a:hover {
+    background-color: #777;
+} 
+
+div.scrollmenu {
+    background-color: rgb(71, 87, 75);
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
 
