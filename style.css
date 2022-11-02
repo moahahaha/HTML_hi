@@ -44,7 +44,6 @@ body {
     
 }
 
-
 .overskriftomfauske {
     margin-top: 10px;
     margin-left: 10px;
@@ -79,31 +78,15 @@ body {
 
 
 
-.containerhjem {
-    flex-direction:row;
-    display:flex;
-    height: 100%;
-    width: 100%;
-    margin-top:0px;
-    margin-bottom:0px;
-    margin-right:0px;
-    margin-left:0px;
-}
-
-.overskrifthjem {
-    width: 100%;
-    height: 80px;
-    background-color:rgb(112, 69, 20);
-    margin-top:10px;
-    margin-left:10px;
-    display:flex;
-    align-content:center;
-}
 
 
 
 
-.overskriftmenubeliggenhet {
+
+
+
+
+.overskriftmenu {
     flex-direction:column;
     display:flex;
     height: 100%;
@@ -111,7 +94,7 @@ body {
 }
 
 
-.innholdbeliggenhet {
+.innhold {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -120,7 +103,7 @@ body {
 }
 
 
-.overskriftbeliggenhet {
+.overskrift {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -128,100 +111,6 @@ body {
     width: 100%;
     background-color:rgb(112, 69, 20);
 }
-
-
-
-
-
-.overskriftmenuserverdigheter {
-    flex-direction:column;
-    display:flex;
-    height: 100%;
-    width: 100%; 
-}
-
-
-.innholdserverdigheter {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    
-}
-
-
-.overskriftserverdigheter {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    width: 100%;
-    background-color:rgb(112, 69, 20);
-}
-
-
-
-
-
-
-.overskriftmarmor {
-    flex-direction:column;
-    display:flex;
-    height: 100%;
-    width: 100%; 
-}
-
-
-.innholdmarmor {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    
-}
-
-
-.overskriftmarmor {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    width: 100%;
-    background-color:rgb(112, 69, 20);
-}
-
-
-
-
-
-.overskriftmenubutikker {
-    flex-direction:column;
-    display:flex;
-    height: 100%;
-    width: 100%; 
-}
-
-
-.innholdbutikker {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    
-}
-
-
-.overskriftbutikker {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    width: 100%;
-    background-color:rgb(112, 69, 20);
-}
-
-
-
 
 
 div.scrollmenu a:hover {
