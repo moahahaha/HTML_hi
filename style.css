@@ -13,6 +13,10 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:rgb(163, 101, 39);}
 
+
+
+
+
 .containeromfauske {
     margin-top: 0px;
     margin-left: 0px;
@@ -51,8 +55,6 @@ body {
 }
 
 
-
-
 .venstreomfauske {
     margin-top: 10px;
     margin-left: 20px;
@@ -71,6 +73,9 @@ body {
     background-color:antiquewhite;
     color:rgb(163, 101, 39);
 }
+
+
+
 
 
 
@@ -94,6 +99,128 @@ body {
     display:flex;
     align-content:center;
 }
+
+
+
+
+.overskriftmenubeliggenhet {
+    flex-direction:column;
+    display:flex;
+    height: 100%;
+    width: 100%; 
+}
+
+
+.innholdbeliggenhet {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.overskriftbeliggenhet {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color:rgb(112, 69, 20);
+}
+
+
+
+
+
+.overskriftmenuserverdigheter {
+    flex-direction:column;
+    display:flex;
+    height: 100%;
+    width: 100%; 
+}
+
+
+.innholdserverdigheter {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.overskriftserverdigheter {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color:rgb(112, 69, 20);
+}
+
+
+
+
+
+
+.overskriftmarmor {
+    flex-direction:column;
+    display:flex;
+    height: 100%;
+    width: 100%; 
+}
+
+
+.innholdmarmor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.overskriftmarmor {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color:rgb(112, 69, 20);
+}
+
+
+
+
+
+.overskriftmenubutikker {
+    flex-direction:column;
+    display:flex;
+    height: 100%;
+    width: 100%; 
+}
+
+
+.innholdbutikker {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.overskriftbutikker {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color:rgb(112, 69, 20);
+}
+
+
 
 
 
