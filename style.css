@@ -1,22 +1,55 @@
 
 
-
-h2 { color:rgb(146, 96, 46)}
-h1 { color:rgb(255, 249, 242)}
+/*Felles for alle sidene*/
+h2 { color:rgb(146, 96, 46)} /*Farge på h2 tekst*/
+h1 { color:rgb(255, 249, 242)} /* Farge på h1 tekst*/
 body {
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
  
-    background-color:antiquewhite;
+    background-color:antiquewhite; /*bakgrunnsfarge*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:rgb(163, 101, 39);}
+    color:rgb(163, 101, 39);} /*Farge på all tekst*/
+
+
+.overskrift { /*Overskrift for alle sidene*/
+    margin-top: 10px; /*Hvor mye margin fra kantene/andre div'er*/
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    width: 100%; /*hvor bred*/
+    background-color:rgb(112, 69, 20); /*bakgrunnsfargen bak overskriften*/
+}
+
+
+div.scrollmenu a:hover {
+    background-color: rgb(214, 172, 125); /*fargen menyen får når du holder over den*/
+} 
+
+div.scrollmenu {
+    background-color: rgb(255, 255, 255); /*Bakgrunnsfagen til menyen*/
+    overflow: auto; /*gjør at scrollbar kommer hvis vinduet er for lite*/
+    white-space: nowrap; /*gjør at scrollbar kommer hvis vinduet er for lite*/
+    width:100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.scrollmenu a {
+    
+    display: inline-block;
+    color:  rgb(112, 69, 20); /*farge på tekst i meny*/
+    text-align: center; /*teksten kommen i midten*/
+    padding: 20px;
+    text-decoration: none;
+}
 
 
 
 
-.containerhjem
+
 
 
 
@@ -27,7 +60,7 @@ body {
     margin-top: 30px;
     margin-right: 10px;
     display: flex;
-    flex-direction:row;
+    flex-direction:row; /*divene kommer ved siden av hverandre*/
 }
 
 
@@ -36,7 +69,7 @@ body {
     width: 60%;
     height: 100%;
     display: flex;
-    flex-direction:column;
+    flex-direction:column; /*divene kommer under og over hverandre*/
     margin-bottom: 40px;
     
 }
@@ -54,11 +87,6 @@ body {
     margin-top:40px;
 
 }
-
-
-
-
-
 
 
 
@@ -93,17 +121,14 @@ body {
     background-color:rgb(112, 69, 20);
 }
 
-
 .innholdomfauske {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 100%;
+    margin-left: 20px;
     
 }
-
-
-
 
 .venstreomfauske {
     margin-top: 30px;
@@ -123,6 +148,7 @@ body {
     background-color:antiquewhite;
     color:rgb(163, 101, 39);
 }
+
 
 
 
@@ -218,8 +244,64 @@ td{
     margin-top: 30px;
     height:100%;
     width: 30%;
+    margin-bottom:30px;
 }
 
+
+
+.innholdmarmor{
+    height: 100%;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+
+.innholdsulis{
+    display:flex;
+    flex-direction: row;
+    height:100%;
+    width: 100%;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.venstresulis {
+    height: 100%;
+    width: 70%;
+}
+
+
+.høyresulis {
+    height: 100%;
+    width: 30%;
+    margin-left: 20px;
+}
+
+
+
+.innholdvalnesfjord {
+    display:flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom:30px;
+    margin-right: 20px;
+    margin-left:20px;
+}
+
+.venstrevalnesfjord {
+    margin-right: 30px;
+    height: 100%;
+    width:70%;
+}
+
+.høyrevalnesfjord {
+    height: 100%;
+    width: 30%;
+}
 
 
 
@@ -230,45 +312,4 @@ td{
     width: 100%; 
 }
 
-
-.innhold {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    
-}
-
-
-.overskrift {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    width: 100%;
-    background-color:rgb(112, 69, 20);
-}
-
-
-div.scrollmenu a:hover {
-    background-color: rgb(214, 172, 125);
-} 
-
-div.scrollmenu {
-    background-color: rgb(255, 255, 255);
-    overflow: auto;
-    white-space: nowrap;
-    width:100%;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-div.scrollmenu a {
-    
-    display: inline-block;
-    color:  rgb(112, 69, 20);
-    text-align: center;
-    padding: 20px;
-    text-decoration: none;
-}
 
